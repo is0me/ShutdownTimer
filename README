@@ -4,3 +4,5 @@
  * Copyright 2011, is0me
  * Dual licensed under the MIT or GPL Version 2 licenses.
 
+Macをシャットダウンさせるテストアプリ。
+シャットダウンの速度が異常に速い場合があるので、何か大事なものが抜けているかのうせいあり。(システムログ保存とか)
