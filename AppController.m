@@ -13,7 +13,7 @@
 
 -(id) init
 {
-	if(self = [super init]){
+	if(self == [super init]){
 	}
 	
 	return (self);
@@ -22,20 +22,17 @@
 
 -(void) awakeFromNib
 {
-	// nibに初期値を入れる
 	[textField setStringValue: @"タイマーをセットしてください"];
 	[button setTitle:@"Start"];
 	[self nowTimeStart];
-	[startTime setDateValue:[[[NSDate alloc]init]autorelease]]; // タイマーの初期値
+	[startTime setDateValue:[[[NSDate alloc]init]autorelease]];
 	
 } // awakeFromNib
 
 - (IBAction)startTimeWatch:(id)sender
 {
     
-	// GOボタンが押下されたアクション
 	if([stopTimer isValid]){
-		// 既にタイマーがスタートしている場合は停止させる。
 		[textField setStringValue: @"タイマーをストップしました"];
 		[stopTimer invalidate];
 		stopTimer = nil;
@@ -51,7 +48,6 @@
 
 -(void)start
 {
-	// 現在時刻と入力値を比較する
 	stopTimer = [NSTimer scheduledTimerWithTimeInterval:1
                                                  target: self 
                                                selector:@selector(compareDate:) 
@@ -59,7 +55,6 @@
                                                 repeats:YES];	
 }
 
-// 現在時刻を表示する
 -(void)nowTimeStart
 {
 	nowTimer = [NSTimer scheduledTimerWithTimeInterval:1
@@ -71,36 +66,26 @@
 
 -(void) compareDate:(NSTimer *)timer
 {
-	// 現在日時と比較する	
-	
-	// 現在日時を取得する
 	NSDate *now_time = [[[NSDate alloc]init]autorelease];
-	
-	// 入力値と比較する
-	// 日付が取れてるかチェック
+
 	NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
 	NSDate *start_time = [startTime dateValue];
 	[formatter setDateFormat:@"yyyy-MM-dd kk:mm:ss"];
 	NSString *formatter_start = [formatter stringFromDate:start_time];
 	NSString *formatter_now = [formatter stringFromDate:now_time];
 	
-	if( [formatter_start isEqualToString:formatter_now] ){ // 時間が来たら、パワーマネジメント処理をする
+	if( [formatter_start isEqualToString:formatter_now] ){
 		[self powerManagement:[powerManagement indexOfSelectedItem]];
 	}
 } // compareDate
 
-// 現在時刻を表示する
 -(void) showNowTime:(NSTimer *)timer
 {
-	
-	// 現在日時を取得する
 	NSDate *now_time = [[[NSDate alloc]init]autorelease];
 	
 	NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
 	[formatter setDateFormat:@"yyyy-MM-dd kk:mm:ss"];
 	NSString *formatter_now = [formatter stringFromDate:now_time];
-	
-    //	NSLog(@"%@",formatter_now);
     
 	[nowTime setStringValue:formatter_now];
 	
@@ -108,8 +93,6 @@
 
 -(void) powerManagement:(int)select
 {
-	// パワーマネジメント処理
-    //	NSLog(@"select is %d\n",select);
     OSStatus error = noErr;
     switch (select)
     {
@@ -159,8 +142,6 @@
 -(OSStatus) SendAppleEventToSystemProcess:(AEEventID)EventToSend
 {
 	
-    // MacOSのパワーマネジメントコア
-	
 	AEAddressDesc targetDesc;
     static const ProcessSerialNumber kPSNOfSystemProcess = { 0, kSystemProcess };
     AppleEvent eventReply = {typeNull, NULL};
@@ -201,7 +182,7 @@
 
 - (IBAction)selectedPopUp:(id)sender
 {
-    //	NSLog(@"%@(index=%d) が選択されました\n",[powerManagement titleOfSelectedItem],[powerManagement indexOfSelectedItem]);
+    //	NSLog(@"%@(index=%d) is Selected.選択されました\n",[powerManagement titleOfSelectedItem],[powerManagement indexOfSelectedItem]);
 }
 
 @end
