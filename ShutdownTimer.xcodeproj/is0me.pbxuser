@@ -1,0 +1,275 @@
+// !$*UTF8*$!
+{
+	089C165DFE840E0CC02AAC07 /* English */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {765, 339}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 45}";
+		};
+	};
+	256AC3D80F4B6AC300CF3369 /* ShutdownTimerAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1505, 417}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 323}";
+		};
+	};
+	256AC3D90F4B6AC300CF3369 /* ShutdownTimerAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {920, 384}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 382}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 64BF37B012D274A80022F68B /* ShutdownTimer */;
+		activeTarget = 8D1107260486CEB800E47090 /* ShutdownTimer */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* ShutdownTimer */,
+		);
+		breakpoints = (
+		);
+		codeSenseManager = 64BF37B812D274BD0022F68B /* Code sense */;
+		executables = (
+			64BF37B012D274A80022F68B /* ShutdownTimer */,
+		);
+		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA1AED706398EBD00589147" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					198,
+					20,
+					99,
+					99,
+					29,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_IgnoreCountID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					229,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1327,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					301,
+					60,
+					20,
+					48.16259765625,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 322391864;
+			PBXWorkspaceStateSaveDate = 322391864;
+		};
+		perUserProjectItems = {
+			6416080112D4BB6F00027B06 /* PBXTextBookmark */ = 6416080112D4BB6F00027B06 /* PBXTextBookmark */;
+			645F208212D275D200F6EF76 /* PlistBookmark */ = 645F208212D275D200F6EF76 /* PlistBookmark */;
+			645F20A412D27AD100F6EF76 /* PBXTextBookmark */ = 645F20A412D27AD100F6EF76 /* PBXTextBookmark */;
+			645F20A612D27AD100F6EF76 /* PBXTextBookmark */ = 645F20A612D27AD100F6EF76 /* PBXTextBookmark */;
+			64DCE1FA13374F460008F51A /* PBXTextBookmark */ = 64DCE1FA13374F460008F51A /* PBXTextBookmark */;
+			64DCE1FB13374F460008F51A /* PBXTextBookmark */ = 64DCE1FB13374F460008F51A /* PBXTextBookmark */;
+			64DCE20A13375E4A0008F51A /* PBXTextBookmark */ = 64DCE20A13375E4A0008F51A /* PBXTextBookmark */;
+		};
+		sourceControlManager = 64BF37B712D274BD0022F68B /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	6416080112D4BB6F00027B06 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 64BF37BB12D274E70022F68B /* AppController.m */;
+		name = "AppController.m: 83";
+		rLen = 9;
+		rLoc = 1752;
+		rType = 0;
+		vrLen = 1266;
+		vrLoc = 1153;
+	};
+	645F208212D275D200F6EF76 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* ShutdownTimer-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/is0me/Documents/ShutdownTimer/ShutdownTimer-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	645F20A412D27AD100F6EF76 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 089C165DFE840E0CC02AAC07 /* English */;
+		name = "InfoPlist.strings: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 45;
+		vrLoc = 0;
+	};
+	645F20A612D27AD100F6EF76 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* ShutdownTimerAppDelegate.m */;
+		name = "ShutdownTimerAppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 382;
+		vrLoc = 0;
+	};
+	64BF37B012D274A80022F68B /* ShutdownTimer */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = ShutdownTimer;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	64BF37B712D274BD0022F68B /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	64BF37B812D274BD0022F68B /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	64BF37BA12D274E70022F68B /* AppController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1505, 608}}";
+			sepNavSelRange = "{472, 0}";
+			sepNavVisRange = "{0, 544}";
+		};
+	};
+	64BF37BB12D274E70022F68B /* AppController.m */ = {
+		uiCtxt = {
+			sepNavFolds = "{\n    c =     (\n                {\n            r = \"{2549, 1217}\";\n            s = 0;\n        }\n    );\n    r = \"{0, 5064}\";\n    s = 0;\n}";
+			sepNavIntBoundsRect = "{{0, 0}, {1505, 2256}}";
+			sepNavSelRange = "{1752, 9}";
+			sepNavVisRange = "{1153, 1266}";
+			sepNavWindowFrame = "{{15, 31}, {696, 747}}";
+		};
+	};
+	64DCE1FA13374F460008F51A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 64BF37BA12D274E70022F68B /* AppController.h */;
+		name = "AppController.h: 22";
+		rLen = 0;
+		rLoc = 472;
+		rType = 0;
+		vrLen = 544;
+		vrLoc = 0;
+	};
+	64DCE1FB13374F460008F51A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D80F4B6AC300CF3369 /* ShutdownTimerAppDelegate.h */;
+		name = "ShutdownTimerAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 323;
+		vrLoc = 0;
+	};
+	64DCE20A13375E4A0008F51A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D80F4B6AC300CF3369 /* ShutdownTimerAppDelegate.h */;
+		name = "ShutdownTimerAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 323;
+		vrLoc = 0;
+	};
+	8D1107260486CEB800E47090 /* ShutdownTimer */ = {
+		activeExec = 0;
+		executables = (
+			64BF37B012D274A80022F68B /* ShutdownTimer */,
+		);
+	};
+}
